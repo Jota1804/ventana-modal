@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* modal */
+/* propiedad que permite modificar la capa entre la modal y la pagina */
+
+#modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal {
+  max-width: 50%;
+}
